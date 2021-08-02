@@ -1,0 +1,363 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    border: 1px solid white;
+    /* border-radius: ; */
+    
+
+}
+
+/*NAV BAR*/
+.navigation{
+    background-color: rgb(56, 62, 76);
+    width: 100%; 
+   padding-top: 5px;
+   padding-bottom: 5px;
+   position: fixed; 
+   top: 0; 
+
+
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li{
+    padding: 5px;
+    margin-right: 10px;
+    font-family: Gowun Batang;
+    font-size: 25px;
+    border: 1px solid rgb(0, 124, 128);
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgb(78, 84, 99);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.AC{
+    background-color: rgb(78, 84, 99);
+}
+
+
+
+
+
+/*COVER*/
+.cover{
+    height: 650px;
+    background-image: url(https://res.cloudinary.com/builtonline/image/upload/v1627593877/Lola%27s%20project/bg-1_mzkbdt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* font-family: Merriweather; */
+}
+
+.zone-cover1{
+    font-family: Teko;
+    font-size: 58px;
+    letter-spacing: 5px;
+}
+.zone-cover2{
+    font-family: Abril Fatface;
+    font-size: 25px;
+   
+}
+
+/* FIRST LAYOUT     FIRST LAYOUT  FIRST LAYOUT */
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top:80px ;
+}
+.box{
+    background-color: rgb(242, 242, 242);
+    margin-right: 15px;
+    width: 30%;
+    /* font-family: Gowun Batang; */
+}
+.image > img{
+    width: 100%;
+}
+.green{
+    color: rgb(68, 157, 68);
+    font-family: Gowun Batang;
+}
+.button-color{
+    text-align: center;
+}
+.green-background{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(68, 157, 68);
+    color: white;
+    font-family: Gowun Batang;
+    font-size: 20px;
+    padding: 10px 60px 10px 60px;
+}
+
+.blue{
+    color: rgb(49, 176, 213);
+    font-family: Gowun Batang;
+    /* margin-bottom: 50px; */
+}
+.blue-background{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(49, 176, 213);
+    color: white;
+    font-family: Gowun Batang;
+    font-size: 20px;
+    padding: 10px 60px 10px 60px;
+}
+
+.red{
+    color: rgb(122, 114, 113);
+    font-family: Gowun Batang;
+    /* margin-bottom: 50px; */
+}
+.red-background{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(201, 48, 44);
+    color: white;
+    font-family: Gowun Batang;
+    font-size: 20px;
+    padding: 10px 60px 10px 60px;
+}
+
+/* SECOND LAYOUT */
+.column{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.left-side,.right-side{
+    width: 40%;
+    background-color: rgb(242, 242, 242);
+}
+.side-image > img{
+    width: 100%;
+}
+.side-button{
+    display: flex;
+    justify-content: flex-end;
+}
+.side-button > button{
+    border-radius: 5px;
+    padding: 10px;
+}
+/* THIRD LAYOUT */
+.container-services{
+    background-image: url(https://res.cloudinary.com/builtonline/image/upload/v1627593878/Lola%27s%20project/bg-2_blppyj.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+/* FOURTH LAYOUT */
+
+.layout-four{
+    margin-top: 55px;
+    display: flex;
+    padding: 0 70px 0 80px;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.layout-content{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.layout-content-two{
+    margin-top: 40px;
+}
+.image-extralayout > img {
+    width: 100%;
+}
+.layout-first{
+    width: 22%;
+    background-color: rgb(242, 242, 242);
+    /* margin-right: 30px; */
+}
+.layout-image > img{
+    width: 100%;
+}
+.layout-button{
+    display: flex;
+    justify-content: center;
+}
+.layout-button > button{
+    padding: 10px;
+    font-size: 20px;
+}
+/* EXTRA LAYOUT */
+.extralayout{
+   
+    background-color: rgb(242, 242, 242);
+    color: rgb(102, 102, 102);
+}
+.extra-button{
+    font-family: Gowun Batang;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(70, 63, 63);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+/* CONTACT FORM */
+.layout-form{
+    background-image: url(https://res.cloudinary.com/builtonline/image/upload/v1627593878/Lola%27s%20project/bg-3_nwrpwv.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+.layout-form-text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 90px;
+}
+.layout-form-background{
+    /* width: 60%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.layout-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.layout-form-background-a{
+    border: 1px solid grey;
+  text-align: center;
+    background-color: rgba(242,242,242,0.4);
+    height: 100px;
+    border-radius: 5px;
+    color: #000;
+    width: 65%;
+    
+}
+
+.layout-form-background-b{
+
+    width: 65%;
+    margin-top: 20px;
+}
+
+.input-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs,.description{
+    flex: 0.47;
+  
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputs > input{
+ margin-bottom: 12px;
+ padding: 10px;
+ border-radius: 3px;
+ background-color: rgba(242,242,242,0.4);
+ border:none;
+ width: 100%;
+}
+.description > textarea{
+    background-color: rgba(242,242,242,0.4);
+    color: black;
+    padding: 10px;
+    border-radius: 3px;
+    /* width: 100%; */
+}
+.description-button{
+    color: white;
+    background-color: rgb(32, 31, 31);
+    font-family: Gowun Batang;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+.bottom{
+    height: 390px;
+}
+.bottom-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
+    font-style: italic;
+    font-family: merriweather;
+    color: rgb(119, 111, 111);
+}
+.bottom-end{
+    border-top: 1px solid rgb(238, 230, 230);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(119, 111, 111);
+}   
+
+
+
+@media only screen and (max-width : 600px) {
+    .nav-bar a {
+        font-size: 15px;
+    }    
+    .zone-cover1{}
+   
+   
+   
+   
+   
+    .image-container {
+        display: block;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+}
